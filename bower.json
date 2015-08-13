@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-typeahead",
+  "main": "leaflet-typeahead.js",
+  "version": "0.0.0",
+  "authors": [
+    "kahkhang <kahkhang@gmail.com>"
+  ],
+  "description": "Typeahead component for use on Leaflet maps. Uses the typeahead.js library from Twitter.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "leaflet",
+    "typeahead"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
