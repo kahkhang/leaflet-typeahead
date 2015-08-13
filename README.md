@@ -30,10 +30,6 @@ The special key `placeholder` denotes the display placeholder text in the search
 ##Demo
 ```javascript
 L.control.typeahead({
-}
-##Example
-```javascript
-L.control.typeahead({
   hint: true,
   highlight: true,
   minLength: 1
