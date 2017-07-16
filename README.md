@@ -1,4 +1,4 @@
-#Typeahead.js Component for Leaflet Maps
+# Typeahead.js Component for Leaflet Maps
 
 This component embeds a search bar on top of leaflet maps, with functionalities provided by Twitter's typeahead.js
 
@@ -17,17 +17,17 @@ Include the appropriate javascript dependencies in your html file.
 <script src="bower_components/leaflet-typeahead/leaflet-typeahead.js"></script>
 ```
 
-##Usage
+## Usage
 Please refer to the typeahead [docs](https://github.com/twitter/typeahead.js/blob/master/doc/jquery_typeahead.md) for more details.
 
 `L.control.typeahead(options, [*datasets], [typeahead custom event object])`
 
-###typeahead custom event object
+### Typeahead custom event object
 A javascript object, with keys denoting custom event names and values corresponding to respective event functions.
 
 The special key `placeholder` denotes the display placeholder text in the search bar.
 
-##Demo
+## Demo
 ```javascript
 L.control.typeahead({
   hint: true,
